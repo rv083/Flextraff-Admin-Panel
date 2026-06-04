@@ -1,7 +1,7 @@
 // src/pages/Controls.jsx
 import { useEffect, useState } from "react";
-import supabase from "../supabaseClient";
-import Sidebar from "../components/Sidebar";
+import supabase from "../../lib/supabaseClient";
+import Sidebar from "../../components/layout/Sidebar";
 
 export default function Controls({ darkMode, toggleDarkMode }) {
   const [junctions, setJunctions] = useState([]);
